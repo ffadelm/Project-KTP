@@ -32,6 +32,7 @@ public class DataJpaController implements Serializable {
     }
 
     public DataJpaController() {
+        
     }
     
     

@@ -21,7 +21,6 @@ public class dataController {
     DataJpaController dataCtrl  = new DataJpaController();
     List<Data> newdata = new ArrayList<>();
     
-    
     @RequestMapping("/data")
     //@ResponseBody
     public String getDataKTP(Model model ){

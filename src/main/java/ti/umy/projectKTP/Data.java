@@ -22,6 +22,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  *
  * @author MSI
  */
+
 @Entity
 @Table(name = "data")
 @XmlRootElement

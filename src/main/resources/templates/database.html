@@ -53,7 +53,7 @@
                   <tr th:each="godata:${goData}">
                     <td th:text="${godata.noktp}"></td>
                     <td th:text="${godata.nama}"></td>
-                    <td th:text="${#calendars.format(godata.ttl, 'dd-MMM-yyyy')}"></td>
+                    <td th:text="${#calendars.format(godata.ttl, 'dd-MMM-yyyy')}"></td> 
                     <td th:text="${godata.alamat}"></td>
                     <td>
                         <a class="btn btn-warning text-light" href="/detail">Detail</a>
